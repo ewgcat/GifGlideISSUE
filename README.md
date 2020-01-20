@@ -14,7 +14,7 @@
 
 
 
-## 这个指定宽高,不指定圆角,宽高成功，圆角成功
+## 这个指定宽高,不指定圆角,宽高成功，圆角不成功
         var options2 = RequestOptions()
         options2 = options2.override(width, height)
         Glide.with(this).load("https://cs-jiaomigo.gialen.com/image/pic/6a/da/1579485053817.gif").apply(options2).into(imageView2)
